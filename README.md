@@ -42,7 +42,7 @@ A multi-tenant SaaS I designed, built and run. A homeowner types their address, 
 
 ```mermaid
 flowchart LR
-    U[Homeowner] --> P["/q/&lt;business&gt;<br/>branded quote page"]
+    U[Homeowner] --> P["Branded quote page<br/>/q/their-business"]
     P --> G[Geocode + building footprint]
     G --> I[Aerial + street imagery]
     I --> V[Vision agent<br/>storeys · access check]
